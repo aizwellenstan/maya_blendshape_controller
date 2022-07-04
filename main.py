@@ -19,7 +19,7 @@ def bspConnectToolUI():
     loadBsptsl = cmds.textScrollList(allowMultiSelection = False, height=50, selectCommand='loadBspWeight()')
     bspTsl = loadBsptsl
     cmds.separator(style = 'in')
-    cmds.text(label='lost of selective weights', height=30)
+    cmds.text(label='list of selective weights', height=30)
     cmds.separator(style = 'in')
     tScrollList = cmds.textScrollList(allowMultiSelection=True, height=160)
     bspWeightTsl = tScrollList
